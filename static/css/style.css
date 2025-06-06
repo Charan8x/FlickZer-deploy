@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(135deg, #1e1e1e, #2e2e2e);
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.15);
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-body {
+    background-color: #1c1c1c;
+    border-radius: 0 0 12px 12px;
+    padding: 12px;
+}
+
+.btn-warning {
+    background-color: #f5c518;
+    border: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-warning:hover {
+    background-color: #e4b400;
+}
+
+input.form-control {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+    color: #fff;
+}
+
+input.form-control::placeholder {
+    color: #ccc;
+}
+
+.dropdown-menu-dark .dropdown-item {
+    color: #fff;
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+    background-color: #444;
+    color: #f5c518;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
