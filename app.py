@@ -4,7 +4,7 @@ import random
 
 app = Flask(__name__)
 
-API_KEY = "0a6ba63e42fd8f1e83cd80d74a1600a4"
+API_KEY = "Your_actaul_TMDB_API_KEY"
 BASE_URL = "https://api.themoviedb.org/3"
 
 # Cache to store movie_id -> imdb_id mapping
