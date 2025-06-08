@@ -9,7 +9,8 @@ FlickZer is a movie recommendation web app that helps users discover trending an
 ## ⚡ Features
 
 - 🔍 Search movies by title  
-- 🎭 Browse movies by genre  
+- 🎭 Browse movies by genre
+- 🎲 Randomized movie recommendations on each page refresh 
 - 🔥 Discover trending and top-rated films  
 - 📄 View IMDb links for more info  
 - 💻 Clean, responsive interface  
